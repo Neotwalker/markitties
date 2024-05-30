@@ -30,17 +30,17 @@
 
 <body class="page">
 	<style>
-		.page--main .main--header{
-			background-image: url(img/main_bg.png);
+		.page--header__wrapper{
+			background-image: url(img/page_cases/header_bg.png);
 		}
-		@media (max-width: 992px){
-			.page--main .main--header{
-				background-image: url(img/main_bgMob.png);
+		@media only screen and (max-width : 1280px){
+			.page--header{
+				background-image: url(img/page_cases/header_bg.png);
 			}
 		}
 		@media (max-width: 480px){
-			.page--main .main--header{
-				background-image: url(img/main_bg1.png);
+			.page--header{
+				background-image: url(img/page_cases/header_bg_mob.png);
 			}
 		}
 	</style>
@@ -97,113 +97,21 @@
 			</div>
 		</header>
 
-		<main class="main page--main">
-			<section class="main--header section">
+		<main class="main cases">
+			<section class="page--header section">
 				<div class="container">
 					<div class="row">
-						<div class="main--header__wrapper">
-							<div class="main--header__text">
-								<div class="main--header__title">
-									<div class="h1">у нас лапки</div>
-									<div class="h1">но мы можем!</div>
+						<div class="page--header__wrapper">
+							<div class="page--header__text">
+								<div class="breadcrumbs">
+									<a href="index.html">Главная</a>
+									/
+									<span>Кейсы</span>
 								</div>
-								<div class="desc">Разрабатываем сайты и дизайны для предприимчивых, креативных и просто хороших людей</div>
-								<button class="button button--primary_1 open--submitApplication">Оставить заявку</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="main--services section">
-				<div class="container">
-					<div class="row">
-						<h1 class="h1 last--color">Cоздаем Digital<br> <span class="color--accent">продукты</span></h1>
-						<div class="main--services__wrapper splide">
-							<div class="splide__track">
-								<div class="splide__list">
-									<div class="main--services__item splide__slide">
-										<div class="h3">Разработка сайтов</div>
-										<div class="desc">Интернет-магазины и корпоративные сайты для вашего бизнеса или стартапа с любым бюджетом и сроками</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">Брендинг</div>
-										<div class="desc">Погрузимся в продукт и найдём лучшую метафору. Упакуем ваш бренд с учётом аналитики продукта и целей бизнеса</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">Графический дизайн</div>
-										<div class="desc">Создадим смысловой и визуальный имидж, способный раскрыть вашу идентичность</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">UX/UI дизайн</div>
-										<div class="desc">Используем тренды с умом. Ориентируемся на ваши цели и личные предпочтения. Главное, сделать аккуратно и адаптивно</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">Маркетинг-стратегия</div>
-										<div class="desc">Определим конкурентные преимущества и на их основе запустим все нужные каналы продвижения. Зададим план развития на перспективу </div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">Digital-реклама</div>
-										<div class="desc">Внедрим все инструменты для оптимизации рекламных кампаний для привлечения целевого трафика</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">SMM</div>
-										<div class="desc">Найдём вашу аудиторию в социальных сетях и подготовим нужные инструменты для привлечения потенциальных клиентов</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">Копирайтинг</div>
-										<div class="desc">Зададим правильные вопросы и найдем нужный контекст без воды и графамании</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">SEO</div>
-										<div class="desc">Найдем ваше место в поиске среди конкурентов, а также устраним все факторы, мешающие быть в топ 10</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
-									<div class="main--services__item splide__slide">
-										<div class="h3">Контент</div>
-										<div class="desc">Раскроем ваш потенциал текстами, графикой и анимацией. Зададим сильный и уникальный визуал для вашего бизнеса</div>
-										<a href="#" class="button button--white"><span>Подробнее</span></a>
-									</div>
+								<div class="page--header__title">
+									<div class="h1"><span class="color--accent">Заботимся</span> о каждом проекте</div>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="main--about section">
-				<div class="container">
-					<div class="row">
-						<div class="main--about__wrapper">
-							<div class="main--about__left">
-								<h2 class="h2">Немного <span class="color--accent">о нас</span></h2>
-								<div class="main--about__text">
-									<p>
-										Мы чувствуем настроение и желание клиентов, и способны предугадывать их ожидания.  Разрабатываем крутые и функциональные сайты  для стартапов, молодых компаний, а также делаем ребрендинги для тех, кто уже давно на рынке.
-									</p>
-									<p>
-										В каждом нашем проекте мы четко улавливаем "tone of voice" и стремимся к тому, чтобы все идеологические элементы клиента обретали  смысл и сознание. 
-									</p>
-									<strong>
-										Ваша команда котиков Markitties — <br>
-										взращиваем бренды, которые впечатляют.
-									</strong>
-								</div>
-								<div class="button button--primary_2">
-									<span>Подробнее</span>
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14.3306 19.5426C14.0225 19.2377 13.8745 18.8692 13.8869 18.4372C13.8992 18.0052 14.06 17.6368 14.3692 17.3318L18.7223 13.0247H1.54093C1.10434 13.0247 0.738111 12.8783 0.442252 12.5856C0.146394 12.2928 -0.00102195 11.931 5.33192e-06 11.5C5.33192e-06 11.068 0.147935 10.7056 0.443793 10.4129C0.739651 10.1202 1.10537 9.97432 1.54093 9.97534H18.7223L14.3306 5.63004C14.0225 5.32511 13.8684 4.96275 13.8684 4.54296C13.8684 4.12317 14.0225 3.76131 14.3306 3.4574C14.6388 3.15247 15.0051 3 15.4293 3C15.8536 3 16.2193 3.15247 16.5265 3.4574L23.5762 10.4327C23.7303 10.5852 23.8397 10.7504 23.9044 10.9283C23.9692 11.1061 24.001 11.2967 24 11.5C24 11.7033 23.9676 11.8939 23.9029 12.0717C23.8382 12.2496 23.7293 12.4148 23.5762 12.5673L16.4879 19.5807C16.2054 19.8602 15.8526 20 15.4293 20C15.0061 20 14.6399 19.8475 14.3306 19.5426Z"/>
-									</svg>
-								</div>
-							</div>
-							<div class="main--about__right">
-								<img src="img/main_about.png" alt="#">
+								<div class="desc">Погрузимся в продукт и найдём лучшую метафору. Упакуем ваш бренд с учётом актуальных трендов и ваших пожеланий</div>
 							</div>
 						</div>
 					</div>
@@ -1841,185 +1749,6 @@
 					</div>
 				</div>
 			</div>
-			<section class="main--advantages">
-				<div class="container">
-					<div class="row">
-						<h2 class="h3"><span class="color--accent">Приемущества</span> работы с нами</h2>
-						<div class="main--advantages__wrapper">
-							<div class="main--advantages__item">
-								<div class="main--advantages__left">
-									<img src="img/advantages/1.png" alt="#">
-								</div>
-								<div class="main--advantages__right">
-									<div class="h5">Реалистичные сроки</div>
-									<p>
-										Найдём оптимальное решение, если запуск должен был быть вчера. Призовём на помощь духов, чтобы ваш старт был максимально быстрым
-									</p>
-								</div>
-							</div>
-							<div class="main--advantages__item">
-								<div class="main--advantages__left">
-									<img src="img/advantages/2.png" alt="#">
-								</div>
-								<div class="main--advantages__right">
-									<div class="h5">Адаптируемся под ваш  бюджет</div>
-									<p>Понимаем как жизненно необходим сайт для работы бизнеса и не откажем вам, даже если денег нет совсем. Сможем удовлетворить вас даже при самом ограниченном бюджете</p>
-								</div>
-							</div>
-							<div class="main--advantages__item">
-								<div class="main--advantages__left">
-									<img src="img/advantages/3.png" alt="#">
-								</div>
-								<div class="main--advantages__right">
-									<div class="h5">Полное вовлечение в ваш продукт</div>
-									<p>Возьмём на себя роль вашего клиента. Изучим конкурентов и потребности рынка для выявления ваших индивидуальности и личных преимуществ</p>
-								</div>
-							</div>
-							<div class="main--advantages__item">
-								<div class="main--advantages__left">
-									<img src="img/advantages/4.png" alt="#">
-								</div>
-								<div class="main--advantages__right">
-									<div class="h5">Реализуем любую идею</div>
-									<p>Создадим с вами идеальный тандем из ваших мыслей и наших рук (лап). Профессиональным подходом реализуем любую вашу хотелку</p>
-								</div>
-							</div>
-							<div class="main--advantages__item">
-								<div class="main--advantages__left">
-									<img src="img/advantages/5.png" alt="#">
-								</div>
-								<div class="main--advantages__right">
-									<div class="h5">Прямая коммуникация </div>
-									<p>Своевременные переговоры с командой и клиентом. Подстраиваемся под ваше рабочее время, можем организовать созвон в выходные и праздники.</p>
-								</div>
-							</div>
-							<div class="main--advantages__item">
-								<div class="main--advantages__left">
-									<img src="img/advantages/6.png" alt="#">
-								</div>
-								<div class="main--advantages__right">
-									<div class="h5">Гибкий процесс работы</div>
-									<p>Организация работы в команде соответствует принципам Agile, Scrum и Kanban. Ставим правильные приоритеты и находим оптимально короткий путь для релиза вашего проекта </p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="main--reviews section">
-				<div class="container">
-					<div class="row">
-						<h2 class="h3"><span class="color--accent">Комплименты</span> от наших клиентов</h2>
-						<div class="main--reviews__wrapper">
-							<div class="main--reviews__left">
-								<picture>
-									<source media="(min-width: 480px)" srcset="img/reviews/bg.png">
-									<source media="(min-width: 260px)" srcset="img/reviews/bg_mob.png">
-									<img src="img/reviews/bg.png" alt="#">
-								</picture>
-							</div>
-							<div class="main--reviews__slider reviews--slider splide">
-								<div class="splide__track">
-									<div class="splide__list">
-										<div class="main--reviews__item splide__slide">
-											<p>
-												Дизайн пушка! Я был приятно удивлен, что ребята смогли попасть в мои ожидания на 100%. Чувствую, как мой проект приобрел свой характер, имя. Теперь все мои партнеры спрашивают, кто мне сделал такую красоту) 
-											</p>
-											<div class="main--reviews__reviewer">
-												<div class="main--reviews__reviewer--avatar">
-													<img src="img/reviews/1.png" alt="#">
-												</div>
-												<div class="main--reviews__reviewer--name">
-													<div class="h4">Никита Пирогов</div>
-													<span>Предприниматель</span>
-												</div>
-											</div>
-											<a href="#" class="button button--primary_3">
-												<span>Узнать про проект клиента</span>
-												<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M11.9422 17.1966C11.6854 16.9425 11.5621 16.6355 11.5724 16.2755C11.5827 15.9155 11.7166 15.6084 11.9743 15.3543L15.6019 11.765L1.28411 11.765C0.920282 11.765 0.615092 11.643 0.368544 11.3991C0.121995 11.1552 -0.000851628 10.8536 4.44327e-06 10.4945C4.44327e-06 10.1345 0.123279 9.83251 0.369828 9.58856C0.616376 9.34461 0.921138 9.22307 1.28411 9.22391L15.6019 9.22391L11.9422 5.60284C11.6854 5.34873 11.557 5.04676 11.557 4.69693C11.557 4.34711 11.6854 4.04556 11.9422 3.7923C12.199 3.53819 12.5042 3.41113 12.8578 3.41113C13.2113 3.41113 13.5161 3.53819 13.7721 3.7923L19.6469 9.60508C19.7753 9.73213 19.8664 9.86978 19.9204 10.018C19.9743 10.1662 20.0008 10.3251 20 10.4945C20 10.6639 19.973 10.8227 19.9191 10.9709C19.8651 11.1192 19.7744 11.2568 19.6469 11.3839L13.74 17.2284C13.5045 17.4613 13.2105 17.5778 12.8578 17.5778C12.5051 17.5778 12.1999 17.4507 11.9422 17.1966Z" fill="#C351F9"/>
-												</svg>
-											</a>
-										</div>
-										<div class="main--reviews__item splide__slide">
-											<p>
-												Отдали на поддержку все наши сайты, в том числе за время работы запусти еще пару проектов. У компании хорошее соотношение “цена / качество”. Все сайты выглядят уникально, есть своя изюминка. Одним словом — рекомендую!
-											</p>
-											<div class="main--reviews__reviewer">
-												<div class="main--reviews__reviewer--avatar">
-													<img src="img/reviews/2.png" alt="#">
-												</div>
-												<div class="main--reviews__reviewer--name">
-													<div class="h4">Андрей Ермилов</div>
-													<span>Директор компании</span>
-												</div>
-											</div>
-											<a href="#" class="button button--primary_3">
-												<span>Узнать про проект клиента</span>
-												<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M11.9422 17.1966C11.6854 16.9425 11.5621 16.6355 11.5724 16.2755C11.5827 15.9155 11.7166 15.6084 11.9743 15.3543L15.6019 11.765L1.28411 11.765C0.920282 11.765 0.615092 11.643 0.368544 11.3991C0.121995 11.1552 -0.000851628 10.8536 4.44327e-06 10.4945C4.44327e-06 10.1345 0.123279 9.83251 0.369828 9.58856C0.616376 9.34461 0.921138 9.22307 1.28411 9.22391L15.6019 9.22391L11.9422 5.60284C11.6854 5.34873 11.557 5.04676 11.557 4.69693C11.557 4.34711 11.6854 4.04556 11.9422 3.7923C12.199 3.53819 12.5042 3.41113 12.8578 3.41113C13.2113 3.41113 13.5161 3.53819 13.7721 3.7923L19.6469 9.60508C19.7753 9.73213 19.8664 9.86978 19.9204 10.018C19.9743 10.1662 20.0008 10.3251 20 10.4945C20 10.6639 19.973 10.8227 19.9191 10.9709C19.8651 11.1192 19.7744 11.2568 19.6469 11.3839L13.74 17.2284C13.5045 17.4613 13.2105 17.5778 12.8578 17.5778C12.5051 17.5778 12.1999 17.4507 11.9422 17.1966Z" fill="#C351F9"/>
-												</svg>
-											</a>
-										</div>
-										<div class="main--reviews__item splide__slide">
-											<p>
-												Дизайн пушка! Я был приятно удивлен, что ребята смогли попасть в мои ожидания на 100%. Чувствую, как мой проект приобрел свой характер, имя. Теперь все мои партнеры спрашивают, кто мне сделал такую красоту) 
-											</p>
-											<div class="main--reviews__reviewer">
-												<div class="main--reviews__reviewer--avatar">
-													<img src="img/reviews/1.png" alt="#">
-												</div>
-												<div class="main--reviews__reviewer--name">
-													<div class="h4">Никита Пирогов</div>
-													<span>Предприниматель</span>
-												</div>
-											</div>
-											<a href="#" class="button button--primary_3">
-												<span>Узнать про проект клиента</span>
-												<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M11.9422 17.1966C11.6854 16.9425 11.5621 16.6355 11.5724 16.2755C11.5827 15.9155 11.7166 15.6084 11.9743 15.3543L15.6019 11.765L1.28411 11.765C0.920282 11.765 0.615092 11.643 0.368544 11.3991C0.121995 11.1552 -0.000851628 10.8536 4.44327e-06 10.4945C4.44327e-06 10.1345 0.123279 9.83251 0.369828 9.58856C0.616376 9.34461 0.921138 9.22307 1.28411 9.22391L15.6019 9.22391L11.9422 5.60284C11.6854 5.34873 11.557 5.04676 11.557 4.69693C11.557 4.34711 11.6854 4.04556 11.9422 3.7923C12.199 3.53819 12.5042 3.41113 12.8578 3.41113C13.2113 3.41113 13.5161 3.53819 13.7721 3.7923L19.6469 9.60508C19.7753 9.73213 19.8664 9.86978 19.9204 10.018C19.9743 10.1662 20.0008 10.3251 20 10.4945C20 10.6639 19.973 10.8227 19.9191 10.9709C19.8651 11.1192 19.7744 11.2568 19.6469 11.3839L13.74 17.2284C13.5045 17.4613 13.2105 17.5778 12.8578 17.5778C12.5051 17.5778 12.1999 17.4507 11.9422 17.1966Z" fill="#C351F9"/>
-												</svg>
-											</a>
-										</div>
-										<div class="main--reviews__item splide__slide">
-											<p>
-												Отдали на поддержку все наши сайты, в том числе за время работы запусти еще пару проектов. У компании хорошее соотношение “цена / качество”. Все сайты выглядят уникально, есть своя изюминка. Одним словом — рекомендую!
-											</p>
-											<div class="main--reviews__reviewer">
-												<div class="main--reviews__reviewer--avatar">
-													<img src="img/reviews/2.png" alt="#">
-												</div>
-												<div class="main--reviews__reviewer--name">
-													<div class="h4">Андрей Ермилов</div>
-													<span>Директор компании</span>
-												</div>
-											</div>
-											<a href="#" class="button button--primary_3">
-												<span>Узнать про проект клиента</span>
-												<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M11.9422 17.1966C11.6854 16.9425 11.5621 16.6355 11.5724 16.2755C11.5827 15.9155 11.7166 15.6084 11.9743 15.3543L15.6019 11.765L1.28411 11.765C0.920282 11.765 0.615092 11.643 0.368544 11.3991C0.121995 11.1552 -0.000851628 10.8536 4.44327e-06 10.4945C4.44327e-06 10.1345 0.123279 9.83251 0.369828 9.58856C0.616376 9.34461 0.921138 9.22307 1.28411 9.22391L15.6019 9.22391L11.9422 5.60284C11.6854 5.34873 11.557 5.04676 11.557 4.69693C11.557 4.34711 11.6854 4.04556 11.9422 3.7923C12.199 3.53819 12.5042 3.41113 12.8578 3.41113C13.2113 3.41113 13.5161 3.53819 13.7721 3.7923L19.6469 9.60508C19.7753 9.73213 19.8664 9.86978 19.9204 10.018C19.9743 10.1662 20.0008 10.3251 20 10.4945C20 10.6639 19.973 10.8227 19.9191 10.9709C19.8651 11.1192 19.7744 11.2568 19.6469 11.3839L13.74 17.2284C13.5045 17.4613 13.2105 17.5778 12.8578 17.5778C12.5051 17.5778 12.1999 17.4507 11.9422 17.1966Z" fill="#C351F9"/>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="splide__arrows arrows--bottom">
-									<button class="splide__arrow splide__arrow--prev">
-										<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M28.428 24.4894L34.6729 30.6942L28.428 36.8989" stroke="#C351F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-										</svg>
-									</button>
-									<button class="splide__arrow splide__arrow--next">
-										<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M28.428 24.4894L34.6729 30.6942L28.428 36.8989" stroke="#C351F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-										</svg>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 			<div class="main--form section">
 				<div class="container">
 					<div class="row">
@@ -2319,48 +2048,6 @@
 					<div class="form--check">
 						<input type="checkbox" name="check1" class="custom-checkbox" id="check1">
 						<label class="check" for="check1"><span>Согласен с <a href="/privacy-policy/">Политикой конфиденциальности</a></span></label>
-					</div>
-					<div class="form--button">
-						<button class="button button--white wpcf7-form-control wpcf7-submit" type="submit">
-							<span>Отправить</span>
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M14.3306 19.5426C14.0225 19.2377 13.8745 18.8692 13.8869 18.4372C13.8992 18.0052 14.06 17.6368 14.3692 17.3318L18.7223 13.0247H1.54093C1.10434 13.0247 0.738111 12.8783 0.442252 12.5856C0.146394 12.2928 -0.00102195 11.931 5.33192e-06 11.5C5.33192e-06 11.068 0.147935 10.7056 0.443793 10.4129C0.739651 10.1202 1.10537 9.97432 1.54093 9.97534H18.7223L14.3306 5.63004C14.0225 5.32511 13.8684 4.96275 13.8684 4.54296C13.8684 4.12317 14.0225 3.76131 14.3306 3.4574C14.6388 3.15247 15.0051 3 15.4293 3C15.8536 3 16.2193 3.15247 16.5265 3.4574L23.5762 10.4327C23.7303 10.5852 23.8397 10.7504 23.9044 10.9283C23.9692 11.1061 24.001 11.2967 24 11.5C24 11.7033 23.9676 11.8939 23.9029 12.0717C23.8382 12.2496 23.7293 12.4148 23.5762 12.5673L16.4879 19.5807C16.2054 19.8602 15.8526 20 15.4293 20C15.0061 20 14.6399 19.8475 14.3306 19.5426Z" fill="white"/>
-							</svg>
-						</button>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-	<div class="modal modal--submitApplication modal--center">
-		<div class="modal--wrapper">
-			<div class="modal--close button--white">
-				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M4.7998 4.7998L19.1998 19.1998M4.7998 19.1998L19.1998 4.7998" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-				</svg>
-				<span>Закрыть</span>
-			</div>
-			<form action="#" class="form">
-				<div class="form--block">
-					<label>Ваше имя*</label>
-					<span class="wpcf7-form-control-wrap" data-name="fio2"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Иван Иванов" value="" type="text" name="fio2"></span>
-				</div>
-				<div class="form--block">
-					<label>E-mail*</label>
-					<span class="wpcf7-form-control-wrap" data-name="email2"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Введите вашу почту" value="" type="text" name="email2"></span>
-				</div>
-				<div class="form--block">
-					<label>Телефон*</label>
-					<span class="wpcf7-form-control-wrap" data-name="tel2"><input size="40" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="+7 XXX XXX XX XX" value="" type="tel" name="tel2"></span>
-				</div>
-				<div class="form--block">
-					<label>Пару слов о проекте?</label>
-					<span class="wpcf7-form-control-wrap" data-name="textarea2"><textarea cols="40" rows="1" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Я хочу чтобы мой сайт..." name="textarea2"></textarea></span>
-				</div>
-				<div class="form--footer">
-					<div class="form--check">
-						<input type="checkbox" name="check2" class="custom-checkbox" id="check2">
-						<label class="check" for="check2"><span>Согласен с <a href="/privacy-policy/">Политикой конфиденциальности</a></span></label>
 					</div>
 					<div class="form--button">
 						<button class="button button--white wpcf7-form-control wpcf7-submit" type="submit">
